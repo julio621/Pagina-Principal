@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <center>
+    <h1>Formulário</h1>
+</center><hr>
+    
+    <form action="arquivo.php" method="get"><br>
+
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text"
+        placeholder="Digite seu nome" required>
+        <br><br>
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text"
+        placeholder="Digite seu sobrenome" required>
+        <br><br>
+        <label for="campo_sexo">Sexo:</label>
+        <input id="campo_sexo" type="text"
+        placeholder="Digite seu sexo" required>
+        <br><br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email"
+        placeholder="Digite seu email" required>
+        <br><br>
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password"
+        placeholder="Digite seu senha" required>
+        <br><br>
+        <label for="campo_senha">Confirmar Senha:</label>
+        <input id="campo_senha" type="password"
+        placeholder="Digite seu senha" required>
+        <br><br>
+                
+        <h3>Animal de Estimação</h3>
+        
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+        <label for="dog">Cachorro</label>
+        <br>
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label>
+        <br>
+        <input type="radio" id="bird" name="animal" value="Passarinho">
+        <label for="bird">Passarinho</label>
+        <br>
+          
+        <h3>O que você tem em casa</h3>
+
+        <input id="item1" type="checkbox" name="item1" value="TV">
+        <label for="item1">Tv</label>
+        <br>
+
+        <input id="item2" type="checkbox" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label>
+        <br>
+
+        <input id="item3" type="checkbox" name="item3" value="Computador">
+        <label for="item3">Computador</label>
+        <br><br>
+
+        <h3>Escolha uma cor</h3>
+        <select name="cores">
+             <option selected disabled value="">Selecione uma cor</option>
+             <option value="vermelho">Vermelho</option>
+             <option value="azul">Azul</option>
+             <option value="amarelo">Amarelo</option>
+             <option value="verde">Verde</option>
+        </select>
+        <br><br>
+
+        <h3>Descreva sobre você</h3>
+        <textarea placeholder="Descreva sua históra" rows="15" cols="40"></textarea>  
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário" required>
+        <br><br>
+
+    </form><hr><br>
+    <a href="index.html">Voltar para principal</a
+
+    >
+</body>
+</html>
